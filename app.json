@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "AppyMeal",
+    "slug": "appymeal",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/CircleLogo.png",
+    "splash": {
+      "image": "./assets/splashscreenAM.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zowen1.AppyMeal"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/CircleLogo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.zowen1.AppyMeal",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      ["@config-plugins/react-native-ble-plx"],
+      "sentry-expo"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f285a901-c484-4ad4-9de1-5b35d37006a1"
+      }
+    }
+  }
+}
