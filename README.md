@@ -6,13 +6,17 @@
 
 </head>
 <body>
-    <h1>MealTime App 🍽️</h1>
-    <p>MealTime is a versatile delivery and takeout app built for restaurants using React Native. This app streamlines
-        the process of placing orders for both delivery and takeout, allowing customers to access a wide range of
-        restaurants with ease. With the integration of various APIs and services, MealTime provides a seamless and
-        user-friendly experience for its users.</p>
-    <p><img src="https://github.com/BlueRacoon/reactnativefoodapp/blob/master/findnewspots6.5.png" alt="MealTime App Screenshot"></p>
-  <h2>Features</h2>
+  <h1>MealTime App 🍽️</h1>
+<p>MealTime is a versatile delivery and takeout app built for restaurants using React Native. This app streamlines
+    the process of placing orders for both delivery and takeout, allowing customers to access a wide range of
+    restaurants with ease. With the integration of various APIs and services, MealTime provides a seamless and
+    user-friendly experience for its users.</p>
+<p>
+    <img src="https://github.com/BlueRacoon/reactnativefoodapp/blob/master/howtouse6.5.png" height="450" width="200" alt="MealTime App Screenshot">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lxKUAAAAASUVORK5CYII=" style="width:20px;display:inline;">
+    <img src="https://github.com/BlueRacoon/reactnativefoodapp/blob/master/findnewspots6.5.png" height="450" width="200" alt="MealTime App Screenshot">
+</p>
+<h2>Features</h2>
 <ul>
     <li>Restaurant search and filtering</li>
     <li>Detailed restaurant pages with menus and reviews</li>
@@ -64,5 +68,13 @@ scanning the QR code provided.</p>
 ... (see the full dependency list above)
 }
 </code></pre>
-<h2>Contributing</h2>
-<p>Pull requests are welcome! For major changes
+<h2>API Keys and Configuration</h2>
+<p>Please note that all API keys and sensitive information have been removed from the project and replaced with "REMOVED." You'll need to add your own API keys and configuration settings to run the app.</p>
+<p>Refer to the respective API documentation for obtaining and setting up the required keys:</p>
+<ul>
+  <li><a href="https://reactnative.dev/docs/getting-started">React Native</a></li>
+  <li><a href="https://developers.google.com/maps/documentation">Google API</a></li>
+  <li><a href="https://stripe.com/docs/api">Stripe API</a></li>
+  <li><a href="https://firebase.google.com/docs">Firebase</a></li>
+  <li><a href="https://nodejs.org/en/docs/">Node.js</a></li>
+</ul>
