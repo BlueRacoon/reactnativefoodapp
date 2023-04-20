@@ -11,7 +11,7 @@
         the process of placing orders for both delivery and takeout, allowing customers to access a wide range of
         restaurants with ease. With the integration of various APIs and services, MealTime provides a seamless and
         user-friendly experience for its users.</p>
-    <p><img src="./screenshot.png" alt="MealTime App Screenshot"></p>
+    <p><img src="https://github.com/BlueRacoon/reactnativefoodapp/blob/master/findnewspots6.5.png" alt="MealTime App Screenshot"></p>
   <h2>Features</h2>
 <ul>
     <li>Restaurant search and filtering</li>
